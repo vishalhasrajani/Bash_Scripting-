@@ -1,4 +1,7 @@
-## Exercise
+## Data Collected from : https://github.com/takiszourntos/teaching/blob/master/lambton/2020/winter/ese2025/bash/bigdata
+
+
+## TASK :1 
 Compose a BASH script to correlate the location number to the actual location name. If you look at the file BTemperature_Stations.txt, each station, numbered 1 to 338, has a proper name. For example, station number 28 is KELOWNA, and station 241 is TORONTO. If you consider the line of the file corresponding to TORONTO, it looks like:
 
 241 6158355 TORONTO           ON  1840  3  2012 12      43.67    -79.40     113       Y
@@ -15,7 +18,7 @@ MONTICELLO
 
 -9.5
 
-## Exercise
+## TASK :2
 Now, compose a BASH script to create a file, testdata.dat, which contains climate data for a specific site over a number of years. Your script, called testgen.sh, should be used as follows:
 
 $ ./testgen.sh 218 1948 1997 
